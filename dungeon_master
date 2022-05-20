@@ -41,8 +41,8 @@ if decision == "Y":
         elif current_opponent == "Titan":
             opponent_name = "Titan"
             opponent_health = 50
-        elif current_opponent == "Diety":
-            opponent_name = "Diety"
+        elif current_opponent == "Deity":
+            opponent_name = "Deity"
             opponent_health = 60
 
         roll_counter = 0
@@ -85,7 +85,7 @@ if decision == "Y":
                 remaining_health = opponent_health - total_damage_dealt
 
                 if total_damage_dealt < opponent_health:
-                    print(f"Your enemy has {remaining_health} HP left.\nYou can taste the victory as you roll your dice once more.")
+                    print(f"Your enemy has {remaining_health} HP left.\nYou can taste the victory as you reach for your dice once more.")
                     continue
                 elif total_damage_dealt >= opponent_health:
                     print("Congratulations adventurer , you slayed your enemy!\n"
