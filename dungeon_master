@@ -9,7 +9,7 @@ print("Welcome, brave adventurer, to a dark underwolrd dungeon where only luck w
 decision = (input("Begin your journey:\n "))
 
 if decision == "Y":
-    opponents = ["Clay Golem", "Witch", "Warmonger", "Titan", "Diety"]
+    opponents = ["Clay Golem", "Witch", "Warmonger", "Titan", "Deity"]
     print(f"The moment you set foot in the cave a fearsome monster appears out of thin air."
           f"\nYou reach for your pocket and take out the magical dice once belonging to your father.")
     slayed_opponents = []
