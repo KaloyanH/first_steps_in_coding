@@ -1,6 +1,6 @@
 import random
 
-#Commands are case sensitive
+#commands are case sensitive
 
 print("Welcome, brave adventurer, to a dark underwolrd dungeon where only luck will decide whether you live or die! "
       "\nShall you succeed in slaying all the monsters you will be rewarded with nothing!"
