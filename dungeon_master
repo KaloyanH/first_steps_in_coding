@@ -63,7 +63,7 @@ if decision == "Y":
                       f" The {opponent_name} mutters:'Pathetic!' and leaves!")
                 game_end = True
                 break
-            dice_roll = str(input("Roll thy dice: "))
+            dice_roll = str(input("Roll thine dice: "))
             if dice_roll != "Roll":
                 game_end = True
                 print("You have no idea how dice work and there is no one around to tell you. You died!")
